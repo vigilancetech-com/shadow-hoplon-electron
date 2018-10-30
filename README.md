@@ -18,7 +18,7 @@ Instructions w/npm:
 npm i -g electron
 npm i -g shadow-cljs
 npm i -g jquery
-
+npm i
 
 ```
 Then (for both):
