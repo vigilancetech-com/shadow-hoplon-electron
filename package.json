@@ -1,0 +1,42 @@
+{
+    "name": "shadow-hoplon-electron",
+    "version": "0.0.1",
+    "main": "app/main.js",
+    "license": "MIT",
+    "homepage": "https://github.com/vigilancetech-com/shadow-hoplon-electron",
+    "keywords": [
+        "shadow-cljs",
+        "hoplon",
+        "electron",
+        "nodejs",
+        "node",
+        "clojure",
+        "clojurescript",
+        "example",
+        "tutorial",
+        "beginner",
+        "primer"
+    ],
+    "bugs": "support@vigilancetech.com",
+    "author": {
+        "name": "Kevin Haddock",
+        "email": "support@vigilancetech.com",
+        "url": "support@vigilancetech.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vigilancetech-com/shadow-hoplon-electron"
+    },
+    "constributors": [
+        "Matt Ratske <matt@degree9.io> (http://degree9.io)"
+    ],
+    "devDependencies": {
+        "shadow-cljs": "^0.18.3"
+    },
+    "dependencies": {
+        "electron": "^3.0.6",
+        "jquery": "^3.3.1",
+        "querystring": "^0.2.0",
+        "url": "^0.11.0"
+    }
+}

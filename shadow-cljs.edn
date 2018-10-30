@@ -1,0 +1,23 @@
+;; shadow-hoplon-electron
+;; shadow-cljs configuration
+{:source-paths ["src"]
+
+ :dependencies [[refactor-nrepl "2.4.0"]
+                [org.clojure/clojure "1.10.0-alpha6"]
+                [org.clojure/clojurescript "1.10.339"]
+                [hoplon/hoplon             "7.1.0"]
+                [cider/cider-nrepl "0.19.0-SNAPSHOT"]]
+
+ :http {:host "127.0.0.1"}
+
+ ;; build configuration
+ :builds {:electron {:target :node-script
+                     :output-to "app/main.js"
+                     :main app.main/main}
+
+          :client   {:target :browser
+                     :output-dir "app/client"
+                     :asset-path "/client"
+                     :modules {:index {:entries [app.index]}}
+                     :devtools {:http-root "app"
+                                :http-port 8080}}}}
