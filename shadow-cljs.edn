@@ -5,8 +5,8 @@
  :dependencies [[refactor-nrepl "2.4.0"]
                 [org.clojure/clojure "1.10.0-alpha6"]
                 [org.clojure/clojurescript "1.10.339"]
-                [vigilancetech-com/hoplon "6.0.0-alpha17"]
-                [hoplon/hoplon             "7.3.0-SNAPSHOT"]
+;;                [vigilancetech-com/hoplon "6.0.0-alpha17"]
+                [hoplon/hoplon             "7.1.0"]
                 [cider/cider-nrepl "0.19.0-SNAPSHOT"]]
 
  :http {:host "127.0.0.1"}
