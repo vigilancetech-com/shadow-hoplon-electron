@@ -7,7 +7,7 @@
                 [org.clojure/clojurescript "1.10.339"]
 ;;                [vigilancetech-com/hoplon "6.0.0-alpha17"]
                 [hoplon/hoplon             "7.1.0"]
-                [cider/cider-nrepl "0.19.0-SNAPSHOT"]]
+                [cider/cider-nrepl "0.21.0"]]
 
  :http {:host "127.0.0.1"}
 
